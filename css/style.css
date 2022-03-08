@@ -3,5 +3,31 @@
 /*pega todos elementos da pagina */
 /*Seletor Global "*" */
 *{
+    /*para as bordas dos elementos não ocupe area */
+    box-sizing: border-box;
     font-family: 'Open Sans';
+}
+
+html, body{
+    background-color: #E8E8E8;
+}
+
+header{
+    background: #4D41C0;
+    color: #ffff;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max
+}
+
+/*O atributo hover é aquele usado quando passamos o cursor do mouse por cima de algum elemento na página html*/
+a , a:hover{
+    /*unset sem cor definida*/
+    color: unset;
+    /*tirando o sublinhado*/
+    text-decoration: none ;
 }
