@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@300;400;700 & display=swap');
 
+:root{
+    --bg-gray: #ddd;
+    --text-gray: #4a4a4a;
+    --color-primary: #4d41c0;
+    --white: #fff;
+}
+
 /*pega todos elementos da pagina */
 /*Seletor Global "*" */
 *{
@@ -39,4 +46,52 @@ a , a:hover{
 
 .dsmovie-contact-container img{
     margin-right: 10px;
+}
+
+#dsmovie-card-list{
+    /*padding espaçamento interno altura e largura*/
+    padding: 40px o;
+}
+
+.dsmovie-card{
+    width: 360px;
+    
+}
+
+.dsmovie-card img{
+    /*Largura*/
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.dsmovie-card-desription{
+    padding: 10px 0 20px 0;
+    display: flex;
+    /*para deixar um abaixo do outro em forma de colunas*/
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 0 0 8px 8px;
+}
+
+.dsmovie-card-desription h3{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+/*-------------- :hover efeito do mouse */
+.dsmovie-btn, .dsmovie-btn:hover{
+    width: 180px;
+    height: 40px;
+    background-color: var(--color-primary);
+    color: var(--white);
+    font-size: 14px;
+    /*tamanho da fonte*/
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+
 }
