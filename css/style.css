@@ -31,3 +31,12 @@ a , a:hover{
     /*tirando o sublinhado*/
     text-decoration: none ;
 }
+
+.dsmovie-contact-container{
+    display: flex;
+    align-items: center;
+}
+
+.dsmovie-contact-container img{
+    margin-right: 10px;
+}
