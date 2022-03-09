@@ -54,7 +54,7 @@ a , a:hover{
 }
 
 .dsmovie-card{
-    width: 360px;
+    width: 100%;
     
 }
 
@@ -65,19 +65,24 @@ a , a:hover{
 }
 
 .dsmovie-card-desription{
-    padding: 10px 0 20px 0;
+    padding: 10px 20px 20px 20px;
     display: flex;
     /*para deixar um abaixo do outro em forma de colunas*/
     flex-direction: column;
     align-items: center;
     background-color: var(--white);
     border-radius: 0 0 8px 8px;
+    /*altura minima*/
+    min-height: 150px;
+    justify-content: space-between;
 }
 
 .dsmovie-card-desription h3{
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 25px;
+    text-align: center;
+
 }
 
 /*-------------- :hover efeito do mouse */
