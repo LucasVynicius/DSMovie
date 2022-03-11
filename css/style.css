@@ -52,7 +52,7 @@ a , a:hover {
 
 #dsmovie-card-list{
     /*padding espaçamento interno altura e largura*/
-    padding: 40px o;
+    padding: 40px 10px;
 }
 
 .dsmovie-card{
@@ -84,7 +84,7 @@ a , a:hover {
 .dsmovie-card-desription h3{
     font-size: 14px;
     font-weight: 700;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     text-align: center;
 
 }
