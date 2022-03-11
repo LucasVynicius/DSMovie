@@ -36,7 +36,7 @@ a , a:hover{
     /*unset sem cor definida*/
     color: unset;
     /*tirando o sublinhado*/
-    text-decoration: none ;
+    text-decoration: none;
 }
 
 .dsmovie-contact-container{
@@ -55,7 +55,9 @@ a , a:hover{
 
 .dsmovie-card{
     width: 100%;
-    
+    /*espaçamento*/
+    padding: 40px 0;
+
 }
 
 .dsmovie-card img{
@@ -99,4 +101,9 @@ a , a:hover{
     justify-content: center;
     border-radius: 4px;
 
+}
+
+.dsmovie-form-container{
+    padding: 40px 0;
+    max-width: 480px;
 }
