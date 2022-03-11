@@ -6,6 +6,7 @@
     --color-primary: #4d41c0;
     --white: #fff;
     --text-light-gray: #aaa;
+    --star-yellow: #ffbb3a;
 }
 
 /*pega todos elementos da pagina */
@@ -33,7 +34,7 @@ nav{
 }
 
 /*O atributo hover é aquele usado quando passamos o cursor do mouse por cima de algum elemento na página html*/
-a , a:hover{
+a , a:hover {
     /*unset sem cor definida*/
     color: unset;
     /*tirando o sublinhado*/
@@ -86,6 +87,29 @@ a , a:hover{
     margin-bottom: 25px;
     text-align: center;
 
+}
+
+.dsmovie-card-description-botton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dsmovie-card-description-botton h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-yellow);
+}
+
+.dsmovie-card-description-botton img {
+    width: 22px;
+}
+
+.dsmovie-card-description-botton p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-light-gray);
+    margin-bottom: 10px;
 }
 
 /*-------------- :hover efeito do mouse */
