@@ -52,13 +52,13 @@ a , a:hover {
 
 #dsmovie-card-list{
     /*padding espaçamento interno altura e largura*/
-    padding: 40px 10px;
+    padding: 0px 10px;
 }
 
 .dsmovie-card{
     width: 100%;
     /*espaçamento*/
-    padding: 40px 0;
+    padding: 15px 0;
 
 }
 
@@ -82,9 +82,9 @@ a , a:hover {
 }
 
 .dsmovie-card-desription h3{
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 
 }
@@ -169,4 +169,54 @@ a , a:hover {
     align-items: center;
     justify-content: space-between;
     margin: 28px;
+}
+
+.dsmovie-pagination-container{
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dsmovie-pagination-box{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dsmovie-pagination-box p{
+    margin: 0;
+    font-size: 12px;
+    color: var(--color-primary);
+    font-weight: 400;
+}
+
+.dsmovie-pagination-box button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Pintar o svg da cor que precisa*/
+.dsmovie-pagination-box button img{
+    filter: brightness(0%) saturate(100%) invert(30%) sepia(14%) saturate(7167%) hue-rotate(227deg) brightness(86%) contrast(100%);
+    
+}
+
+.dsmovie-pagination-box button:disabled{
+    border-color: 1px solid var(--text-light-gray);
+}
+
+.dsmovie-pagination-box button:disabled img{
+    filter: unset;
+}
+
+/*Rotacionando imagens*/
+.dsmovie-flip-horizontal{
+    transform: rotate(180deg);
 }
